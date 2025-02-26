@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+"globals": "^16.0.0",
     "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
     "vite": "^6.1.0"
   },
   "dependencies": {
