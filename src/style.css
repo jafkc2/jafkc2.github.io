@@ -1,28 +1,16 @@
 @import "tailwindcss";
 
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 2.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: #cdd6f4;
   background-color: #1e1e2e;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #89b4fa;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #78a2e6;
 }
 
 body {
@@ -38,11 +26,21 @@ h1 {
   line-height: 1.1;
 }
 
+p.no-center {
+  text-align: left;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+#project {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .logo {
@@ -51,9 +49,11 @@ h1 {
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vanilla:hover {
   filter: drop-shadow(0 0 2em #3178c6aa);
 }
@@ -91,8 +91,11 @@ button {
   }
 }
 
-@theme{
+@theme {
   --color-base-500: #1e1e2e;
   --color-surface: #313244;
-
+  --color-surface2: #7f849c;
+  --color-mygreen: #40a02b;
+  --color-myblue: #1e66f5;
+  --color-mylightblue: #89b4fa;
 }
