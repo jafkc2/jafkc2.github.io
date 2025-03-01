@@ -126,13 +126,13 @@ const body = html`
   </header>
 
   <section class="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="buttons">
-    <a href="${windows_download_url}" class="flex items-center bg-mygreen text-white px-4 py-6 rounded">
+    <a href="${windows_download_url}" class="flex items-center bg-mygreen text-white px-4 py-6 rounded-xl">
       <img src="/windows.svg" alt="Github" class="w-10 h-10 mr-2" />
       Baixar para o Windows</a>
-    <a href="${linux_download_url}" class="flex items-center bg-mygreen text-white px-4 py-6 rounded">
+    <a href="${linux_download_url}" class="flex items-center bg-mygreen text-white px-4 py-6 rounded-xl">
       <img src="/linux.svg" alt="Github" class="w-10 h-10 mr-2" />
       Baixar para o Linux</a>
-    <a href="${github}" class="flex items-center bg-myblue text-white px-4 py-6 rounded">
+    <a href="${github}" class="flex items-center bg-myblue text-white px-4 py-6 rounded-xl">
       <img src="/github.svg" alt="Github" class="w-10 h-10 mr-2" />
       Repositório do ${project_title}</a>
   </section>
