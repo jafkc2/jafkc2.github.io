@@ -50,7 +50,7 @@ switch (name){
       description = "Launcher de Minecraft simples e rápido. Tem todas as funções importantes do launcher original e muito mais.";
       detailed_description = html`
         <div>
-          <h2 class ="text-4xl font-bold">Descrição detalhada</h2>
+          <h2 class ="text-3xl font-bold">Descrição detalhada</h2>
           <p class="mt-2">O Minelander é um projeto que eu iniciei para aprender a linguagem de programação Rust e também para criar um launcher de Minecraft completo, simples, extremamente rápido e fácil de usar. O Minelander conta com um sistema de instâncias que facilita trocar entre modpacks e versões sem bagunçar o arquivo de configurações. Ele também tenta otimizar o jogo usando uma versão mais nova do Java e configurações otimizadas.</p>
         </div>
       `
@@ -64,16 +64,16 @@ switch (name){
 
       detailed_description = html`
       <div>
-        <h2 class ="text-4xl font-bold">Como usar</h2>
+        <h2 class ="text-3xl font-bold">Como usar</h2>
         <p class="mt-2">Abra o KC Overlay e digite '/jogando' no chat do Mush. É extremamente simples!</p>
 
-        <h2 class ="text-4xl font-bold">Comunidade</h2>
+        <h2 class ="text-3xl font-bold">Comunidade</h2>
         <p class="mt-2">Possui alguma dúvida, sugestão, ou simplesmente quer saber das novidades? Entre no nosso servidor do Discord</p>
         <a href ="https://github.com/jafkc2" target="_black" class="text-mylightblue">
           Clique para entrar no Discord!
         </a>
 
-        <h2 class ="text-4xl font-bold">Dúvidas frequentes</h2>
+        <h2 class ="text-3xl font-bold">Dúvidas frequentes</h2>
         <h2 class ="text-1xl font-bold">É possível levar ban por usar o KC Overlay?</h2>
         <p class="mt-2">Não, o KC Overlay não modifica o jogo de nenhuma forma. Além disso, ele só mostra os stats dos jogadores, que não é proibido pelo Mush.
         </p>
