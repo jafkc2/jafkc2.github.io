@@ -15,6 +15,7 @@ export default defineConfig({
         kc_overlay: resolve(__dirname, 'projetos/kc-overlay.html'),
         minelander: resolve(__dirname, 'projetos/minelander.html'),
         showcase: resolve(__dirname, 'projetos/showcase.html'),
+        discord_verification: resolve(__dirname, '.well-known/discord')
 
       },
     },
