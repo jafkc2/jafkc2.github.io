@@ -5,17 +5,20 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && npx vite build",
+    "build": "vue-tsc -b && vite-ssg build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "globals": "^16.0.0",
-    "typescript": "~5.7.2",
-    "typescript-eslint": "^8.24.1",
-    "vite": "^6.1.0"
-  },
   "dependencies": {
-    "@tailwindcss/vite": "^4.0.8",
-    "tailwindcss": "^4.0.8"
+    "vite-ssg": "26.1.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@unhead/vue": "^2.0.8",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "5.8.3",
+    "vite": "^6.2.0",
+    "vue-tsc": "2.2.10"
   }
 }

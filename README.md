@@ -1,5 +1,5 @@
 # jafkc2.github.io
-Feito com html, tailwindcss e typescript.
+Feito com Typescript e Vue.
 Site disponível em https://jafkc2.github.io/ graças ao Github Pages.
 
 ### Processo de build
