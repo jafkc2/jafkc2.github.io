@@ -50,11 +50,13 @@
         background-color: #45475a;
     }
     section{
-        max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
         display: flex;
         gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .card{
